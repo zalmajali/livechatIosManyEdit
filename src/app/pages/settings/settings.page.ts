@@ -410,7 +410,7 @@ export class SettingsPage implements OnInit {
     window.location.href = "https://taqnyat.sa/ar/contact";
   }
   functionCheckForUpdate(){
-    window.open('https://apps.apple.com/us/app/taqnyat-livechat/id6741383240', '_system');
+    window.location.href = 'https://apps.apple.com/us/app/taqnyat-livechat/id6741383240';
   }
   async displayResult(message:any){
     let toast = await this.toastCtrl.create({
