@@ -74,7 +74,7 @@ export class VersionComponent  implements OnInit {
     });
   }
   goTosend(){
-    window.open('https://apps.apple.com/us/app/taqnyat-livechat/id6741383240', '_system');
+     window.location.href = 'https://apps.apple.com/us/app/taqnyat-livechat/id6741383240';
   }
   async ngOnInit() {
     await this.getDeviceLanguage();
